@@ -1,15 +1,20 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { selectAllMissions } from '../Redux/mission/missionSlice';
 import { selectAllRockets } from '../Redux/rocket/rocketSlice';
 import Setter from './setter';
 
 const Profile = () => {
   const { rockets } = useSelector(selectAllRockets);
-  const { values, setValues } = Setter([]);
-
+  const { mission } = useSelector(selectAllMissions);
+  const { values, setValues } = Setter({
+    mission: [],
+    rockets: [],
+  });
   React.useEffect(() => {
     const data = rockets.filter((x) => x.booked === true);
-    setValues(data);
+    const joinMission = mission.filter((x) => x.joined === true);
+    setValues({ ...values, rockets: data, mission: joinMission });
   }, [rockets]);
   return (
     <div className="w-full lg:flex justify-between px-8 gap-4">
@@ -22,7 +27,7 @@ const Profile = () => {
           </thead>
           <tbody>
             <tr className="flex flex-col border rounded">
-              {values.length > 0 ? values.map((x) => (
+              {values.rockets.length > 0 ? values.rockets.map((x) => (
                 <td className="py-2 border px-1" key={x.id}>
                   {x.rocket_name}
                 </td>
@@ -40,11 +45,11 @@ const Profile = () => {
           </thead>
           <tbody>
             <tr className="flex flex-col border rounded">
-              <td className="py-2 border px-1">Falcon 1</td>
-              <td className="py-2 border px-1">Falcon 2</td>
-              <td className="py-2 border px-1">Falcon 3</td>
-              <td className="py-2 border px-1">Falcon 4</td>
-              <td className="py-2 border px-1">Falcon 5</td>
+              {values.mission.length > 0 ? values.mission.map((x) => (
+                <td className="py-2 border px-1" key={x.mission_id}>
+                  {x.mission_name}
+                </td>
+              )) : <td className="py-2 border px-1">You have not joined any missions yet</td>}
             </tr>
           </tbody>
         </table>
