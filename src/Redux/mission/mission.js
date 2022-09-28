@@ -12,16 +12,18 @@ const Mission = () => {
     <div className="w-full px-2 md:px-8">
       <table className="w-full border">
         <thead>
-          <th className="font-bold capitalize text-left px-2 border py-1">
-            Mission
-          </th>
-          <th className="font-bold capitalize text-left px-2 border py-1">
-            Description
-          </th>
-          <th className="font-bold capitalize text-left px-2 border py-1">
-            Status
-          </th>
-          <th className="font-bold capitalize text-left px-2 border py-1"></th>
+          <tr>
+            <th className="font-bold capitalize text-left px-2 border py-1">
+              Mission
+            </th>
+            <th className="font-bold capitalize text-left px-2 border py-1">
+              Description
+            </th>
+            <th className="font-bold capitalize text-left px-2 border py-1">
+              Status
+            </th>
+            <th className="font-bold capitalize text-left px-2 border py-1"></th>
+          </tr>
         </thead>
         <tbody>
           {missions.map((x) => {
@@ -30,7 +32,7 @@ const Mission = () => {
                 <td className="font-bold text-left px-2 border">
                   {x.mission_name}
                 </td>
-                <td className="text-left px-2 border w-2/3">
+                <td className="text-left px-2 border w-6/12">
                   {x.description}
                 </td>
                 <td className=" border my-2 px-2">

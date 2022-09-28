@@ -1,7 +1,8 @@
 import React from 'react';
 
-const setter = () => {
-  const [values, setvalues] = React.useState({});
+const Setter = (initialValue) => {
+  initialValue = null;
+  const [values, setvalues] = React.useState(initialValue);
 
   return {
     values,
@@ -9,4 +10,4 @@ const setter = () => {
   }
 }
 
-export default setter
+export default Setter

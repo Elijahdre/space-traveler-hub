@@ -16,7 +16,7 @@ const NavBar = () => {
           <NavLink
             className={({ isActive }) =>
               isActive
-                ? "bg-white p-2 rounded-md text-red-600"
+                ? "bg-black p-2 rounded-md text-red-600"
                 : "text-blue-500"
             }
             to="rockets"
@@ -28,7 +28,7 @@ const NavBar = () => {
           <NavLink
             className={({ isActive }) =>
               isActive
-                ? "bg-white p-2 rounded-md text-red-600"
+                ? "bg-black p-2 rounded-md text-red-600"
                 : "text-blue-500"
             }
             to="missions"
@@ -41,7 +41,7 @@ const NavBar = () => {
           <NavLink
             className={({ isActive }) =>
               isActive
-                ? "bg-white p-2 rounded-md text-red-600"
+                ? "bg-black p-2 rounded-md text-red-600"
                 : "text-blue-500"
             }
             to="profile"
