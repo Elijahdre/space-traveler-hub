@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Setter = (initialValue) => {
-  const [values, setvalues] = React.useState(initialValue);
+  const [values, setValues] = React.useState(initialValue);
 
   return {
     values,
-    setvalues,
+    setValues,
   };
 };
 
