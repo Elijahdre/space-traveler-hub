@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Outlet } from 'react-router-dom';
+import Footer from './components/footer';
 import NavBar from './components/navBar';
 import { fetchRockets } from './Redux/rocket/rocketSlice';
 
@@ -12,9 +13,12 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="flex flex-col gap-12 w-full">
+    <div className="flex flex-col gap-12 w-full relative">
       <NavBar />
-      <Outlet />
+      <div className="mb-24">
+        <Outlet />
+      </div>
+      <Footer />
     </div>
   );
 }
