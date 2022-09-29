@@ -37,7 +37,6 @@ const RocketSlice = createSlice({
           data.push({
             id, description, rocket_name, flickr_images, booked: false,
           });
-          console.log(data);
           return data;
         });
         return {
