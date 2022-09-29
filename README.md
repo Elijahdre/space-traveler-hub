@@ -16,6 +16,17 @@
 [Coming soon](https://livedemo.com)
 
 
+## Mockup 
+
+> Multi devices
+
+![](./src/img/mockup/3-devices-black.png)
+
+> Mobile devices
+
+<img src="./src/img/mockup/mobile-black.png" alt="mobile-image" width="95px" />
+
+
 ## Getting Started
 
 ### To have a copy of this project running on your local machine, follow these commands:
@@ -46,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 
 - `npx create-react-app ./`
 
-**cd into math-magician folder, then run from your terminal:**
+**cd into space-traveler-hub folder, then run from your terminal:**
 
 - `npm start`
 
