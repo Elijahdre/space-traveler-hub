@@ -40,7 +40,7 @@ const Profile = () => {
         <table>
           <thead>
             <tr>
-              <td className="text-4xl">My Rockets</td>
+              <td className="text-4xl">My Missions</td>
             </tr>
           </thead>
           <tbody>
