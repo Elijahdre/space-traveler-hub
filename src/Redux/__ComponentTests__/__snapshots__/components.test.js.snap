@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for all components test landing component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-12 w-full"
+      >
+        <nav
+          class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+        >
+          <div
+            class="flex gap-4 items-center"
+          >
+            <img
+              alt="space-hub-logo"
+              class="w-16"
+              src="logo.png"
+            />
+            <a
+              class="text-lg font-bold"
+              href="/"
+            >
+              Space Travelers' Hub
+            </a>
+          </div>
+          <ul
+            class="flex items-center gap-4 list-none"
+          >
+            <li>
+              <a
+                class="text-blue-500"
+                href="/rockets"
+              >
+                Rockets
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/missions"
+              >
+                Missions
+              </a>
+            </li>
+            <li>
+              |
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/profile"
+              >
+                My Profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-12 w-full"
+    >
+      <nav
+        class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+      >
+        <div
+          class="flex gap-4 items-center"
+        >
+          <img
+            alt="space-hub-logo"
+            class="w-16"
+            src="logo.png"
+          />
+          <a
+            class="text-lg font-bold"
+            href="/"
+          >
+            Space Travelers' Hub
+          </a>
+        </div>
+        <ul
+          class="flex items-center gap-4 list-none"
+        >
+          <li>
+            <a
+              class="text-blue-500"
+              href="/rockets"
+            >
+              Rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li>
+            |
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/profile"
+            >
+              My Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test for all components test landing component 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-12 w-full"
+      >
+        <nav
+          class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+        >
+          <div
+            class="flex gap-4 items-center"
+          >
+            <img
+              alt="space-hub-logo"
+              class="w-16"
+              src="logo.png"
+            />
+            <a
+              class="text-lg font-bold"
+              href="/"
+            >
+              Space Travelers' Hub
+            </a>
+          </div>
+          <ul
+            class="flex items-center gap-4 list-none"
+          >
+            <li>
+              <a
+                class="text-blue-500"
+                href="/rockets"
+              >
+                Rockets
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/missions"
+              >
+                Missions
+              </a>
+            </li>
+            <li>
+              |
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/profile"
+              >
+                My Profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-12 w-full"
+    >
+      <nav
+        class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+      >
+        <div
+          class="flex gap-4 items-center"
+        >
+          <img
+            alt="space-hub-logo"
+            class="w-16"
+            src="logo.png"
+          />
+          <a
+            class="text-lg font-bold"
+            href="/"
+          >
+            Space Travelers' Hub
+          </a>
+        </div>
+        <ul
+          class="flex items-center gap-4 list-none"
+        >
+          <li>
+            <a
+              class="text-blue-500"
+              href="/rockets"
+            >
+              Rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li>
+            |
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/profile"
+            >
+              My Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test for all components test landing component 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-12 w-full"
+      >
+        <nav
+          class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+        >
+          <div
+            class="flex gap-4 items-center"
+          >
+            <img
+              alt="space-hub-logo"
+              class="w-16"
+              src="logo.png"
+            />
+            <a
+              class="text-lg font-bold"
+              href="/"
+            >
+              Space Travelers' Hub
+            </a>
+          </div>
+          <ul
+            class="flex items-center gap-4 list-none"
+          >
+            <li>
+              <a
+                class="text-blue-500"
+                href="/rockets"
+              >
+                Rockets
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/missions"
+              >
+                Missions
+              </a>
+            </li>
+            <li>
+              |
+            </li>
+            <li>
+              <a
+                class="text-blue-500"
+                href="/profile"
+              >
+                My Profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-12 w-full"
+    >
+      <nav
+        class="lg:flex-row gap-4 lg:gap-0 flex-col flex justify-between px-8 py-2 items-center border-b w-full"
+      >
+        <div
+          class="flex gap-4 items-center"
+        >
+          <img
+            alt="space-hub-logo"
+            class="w-16"
+            src="logo.png"
+          />
+          <a
+            class="text-lg font-bold"
+            href="/"
+          >
+            Space Travelers' Hub
+          </a>
+        </div>
+        <ul
+          class="flex items-center gap-4 list-none"
+        >
+          <li>
+            <a
+              class="text-blue-500"
+              href="/rockets"
+            >
+              Rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li>
+            |
+          </li>
+          <li>
+            <a
+              class="text-blue-500"
+              href="/profile"
+            >
+              My Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
